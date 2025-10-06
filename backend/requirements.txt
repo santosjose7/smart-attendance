@@ -1,0 +1,77 @@
+# ================================
+# Smart Campus Attendance System
+# Python Dependencies
+# ================================
+
+# Core Framework
+fastapi
+uvicorn[standard]
+python-multipart
+
+# Database
+sqlalchemy
+psycopg2-binary
+alembic
+
+# Authentication & Security
+python-jose[cryptography]
+passlib[bcrypt]
+bcrypt
+pydantic[email]
+pydantic-settings
+
+# Email (SMTP)
+aiosmtplib
+email-validator
+jinja2
+
+# Face Recognition
+opencv-python
+face-recognition
+dlib
+numpy
+Pillow
+
+# QR Code
+qrcode[pil]
+pyzbar
+
+# File Processing & Reports
+openpyxl
+pandas
+reportlab
+PyPDF2
+
+# Utilities
+python-dotenv
+python-dateutil
+pytz
+
+# WebSocket Support
+websockets
+
+# HTTP Client
+httpx
+aiofiles
+
+# Validation & Data Processing
+pydantic
+
+
+# Logging
+loguru
+
+# Redis (Optional - for caching)
+redis
+aioredis
+
+# Testing (Development)
+pytest
+pytest-asyncio
+httpx
+
+# Code Quality (Development)
+black
+flake8
+mypy
+
